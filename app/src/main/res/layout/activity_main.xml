@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#838BF7"
+    tools:context="com.example.android.lywanghk.MainActivity">
+
+
+    <TextView
+        android:text="Enno Cheng"
+        android:id="@+id/enno_text"
+        android:textStyle="bold|italic"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:textColor="#252525"
+        android:textSize="40sp"
+        android:fontFamily="sans-serif-condensed"
+        />
+
+    <ImageView
+        android:src="@drawable/enno"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/enno_text"
+        android:scaleType="centerInside"
+        />
+
+    <TextView
+        android:text="鄭 宜農"
+        android:textStyle="italic"
+        android:textColor="#252525"
+        android:padding="20dp"
+        android:id="@+id/chinese"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:paddingRight="28dp"
+        android:textSize="34sp"
+        android:layout_toRightOf="@id/enno_text"
+
+        />
+
+    <TextView
+        android:text="singer and songwriter"
+        android:fontFamily="sans-serif-condensed"
+        android:textAllCaps="true"
+        android:textStyle="italic"
+        android:id="@+id/singer_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:padding="28dp"
+        android:layout_below="@id/enno_text"
+        android:background="#979797"
+        android:paddingLeft="28dp"
+        />
+
+    <TextView
+        android:text=" + indie singer"
+        android:id="@+id/indie"
+        android:layout_below="@id/singer_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="28dp"
+        android:paddingLeft="28dp"
+        android:textColor="@android:color/white"
+        android:textAppearance="?android:textAppearanceMedium"
+        />
+
+    <TextView
+        android:text=" + Chocolate Tiger  ( band )"
+        android:id="@+id/chocolate"
+        android:layout_below="@id/indie"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="28dp"
+        android:paddingLeft="28dp"
+        android:textColor="@android:color/white"
+        android:textAppearance="?android:textAppearanceMedium"
+        />
+    <Button
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:id="@+id/like_button"
+        android:text="LIKE"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="120dip"
+        android:background="#7fffffff">
+    </Button>
+
+    <Button
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="16dp"
+        android:id="@+id/view_button"
+        android:text="VIEW"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="120dip"
+        android:background="#7fffffff">
+    </Button>
+
+</RelativeLayout>
