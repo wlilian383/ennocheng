@@ -22,15 +22,6 @@
         android:textSize="40sp"
         android:fontFamily="sans-serif-condensed"
         />
-
-    <ImageView
-        android:src="@drawable/enno"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_below="@id/enno_text"
-        android:scaleType="centerInside"
-        />
-
     <TextView
         android:text="鄭 宜農"
         android:textStyle="italic"
@@ -63,17 +54,26 @@
         android:paddingLeft="28dp"
         />
 
+    <ImageView
+        android:src="@drawable/enno"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/singer_text"
+        android:scaleType="centerCrop"
+        />
+
     <TextView
         android:text=" + indie singer"
         android:id="@+id/indie"
-        android:layout_below="@id/singer_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingTop="28dp"
         android:paddingLeft="28dp"
         android:textColor="@android:color/white"
         android:textAppearance="?android:textAppearanceMedium"
-        />
+        android:layout_below="@+id/singer_text"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <TextView
         android:text=" + Chocolate Tiger  ( band )"
